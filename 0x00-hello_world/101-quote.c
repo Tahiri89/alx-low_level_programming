@@ -2,7 +2,7 @@
 #include<unistd>
 
 /**
- * main - Entry point
+ * main - Print without printf and pucts
  *
  * Return : always 1 (Success)
  */
