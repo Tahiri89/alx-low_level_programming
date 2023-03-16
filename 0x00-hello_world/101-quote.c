@@ -3,8 +3,6 @@
 
 /**
  * main - Print without printf and pucts
- * Description :the program hase to print a message without printf and puts
- * parameter: i drealy do not describe this
  * 
  * Return : always 1 (Success)
  */
