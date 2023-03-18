@@ -10,9 +10,8 @@ int main(void)
 {
 	int st;
 	st = 0;
-	while (st < 10)
+	for (st = 0; st  < 10; st +)
 		printf("%d\n", st);
-	st++;
 	return (0);
 }
 			
