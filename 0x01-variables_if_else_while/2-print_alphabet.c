@@ -2,18 +2,15 @@
 /**
  * main - entry point
  *
- *
- * Return: always return 0
+ * Return: alway returns 0
  *
  */
 int main(void)
 {
-	char ch;
-	
-	ch = 'a';
-	while (ch < 'z')
-		putchar(ch);
-	putchar('\n);
-	ch = +ch;
+	char a;
+
+	for (a = 'a'; a <= 'z' ; a++)
+		putchar(a);
+	putchar('\n');
 	return (0);
 }
