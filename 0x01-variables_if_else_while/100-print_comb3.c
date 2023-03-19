@@ -15,7 +15,7 @@ int main(void)
 		for (j = 0; j < 10; j++)
 		{
 			if (i != j)
-				putchar('0'+ij)
+				putchar('0' + i + j)
 		}
 		return (0) ;
 	}
