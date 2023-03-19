@@ -16,5 +16,4 @@ int main(void)
 		{
 			if (i != j)
 				putchar('0' + i + j); }
-		return (0) ; }
-}
+		return (0) ; }}
