@@ -8,8 +8,15 @@
 int main(void)
 {
 	int i;
+	int j;
 
 	for (i = 0; i < 10; i++)
-		putchar(i);
-	putchar('\n');
-	return (0);
+	{
+		for (j = 0; j < 10; j++)
+		{
+			if (i != j)
+				putchar('0'+ij)
+		}
+		return (0) ;
+	}
+}
