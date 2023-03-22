@@ -17,6 +17,6 @@ int main(void)
 			sum_3_5 = sum_3_5 + i;
 		}
 	}
-	printf(" %d\n", sum_3_5);
+	printf("%d\n", sum_3_5);
 	return (0);
 }
