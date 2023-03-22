@@ -12,9 +12,9 @@ int main(void)
 
 	for (i = 1023; i <= 0; i--)
 	{
-		if( i % 3 == 0 || i % 5 == 0)
+		if (i % 3 == 0 || i % 5 == 0)
 		{
-			sum_3_5= sum_3_5 + (i / 3) + (i / 5);
+			sum_3_5 = sum_3_5 + i;
 			printf(" %d\n", sum_3_5);
 		}
 	}
