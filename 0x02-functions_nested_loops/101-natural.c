@@ -14,11 +14,11 @@ int main(void)
 	{
 		if( i % 3 == 0 || i % 5 == 0)
 		{
-			sum_3_5= sum_3_5 + (i / 3) + (i / 5));
-			pint( sum_3_5"\n");
+			sum_3_5= sum_3_5 + (i / 3) + (i / 5);
+			pint( sum_3_5 + "\n");
 		}
-		return (0);
 	}
+	return (0);
 }
 		
 		
