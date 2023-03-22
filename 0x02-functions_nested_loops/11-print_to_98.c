@@ -1,6 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 
+/**
+ * print_to_98 -  print numbers to 98 from n
+ *
+ */
 void print_to_98(int n)
 {
 	int i;
