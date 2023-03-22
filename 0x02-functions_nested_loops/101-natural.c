@@ -15,8 +15,8 @@ int main(void)
 		if (i % 3 == 0 || i % 5 == 0)
 		{
 			sum_3_5 = sum_3_5 + i;
-			printf(" %d\n", sum_3_5);
 		}
 	}
+	printf(" %d\n", sum_3_5);
 	return (0);
 }
