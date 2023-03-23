@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
   * print_numbers - Print the numbers since 0 up to 9
