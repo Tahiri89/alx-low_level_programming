@@ -5,7 +5,7 @@
  *
  * @dest: first string
  * @src : second string to add to the first
- * Return : character
+ * Return: char value
  */
 char *_strcat(char *dest, char *src)
 {
