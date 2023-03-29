@@ -1,13 +1,13 @@
 #include "main.h"
-#include "2-strlen.c"
+
 /**
- * _strncat - concatenate two strings with n bytes from src
+ * _strncat - concats two arrays
  *
- * @dest : first string
- * @src : string to add to the first
- * @n : n bytes from second string
+ * @dest: destination of concat
+ * @src: source array to concat
+ * @n: amount of times to append
  *
- * Retunr: char value
+ * Return: char value
  */
 char *_strncat(char *dest, char *src, int n)
 {
