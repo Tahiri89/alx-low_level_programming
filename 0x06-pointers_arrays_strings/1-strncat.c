@@ -7,7 +7,7 @@
  * @src : string to add to the first
  * @n : n bytes from second string
  *
- * Retunr : char value
+ * Retunr: char value
  */
 char *_strncat(char *dest, char *src, int n)
 {
