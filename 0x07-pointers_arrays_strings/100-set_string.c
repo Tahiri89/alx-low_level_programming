@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * setstring - set the value of string to an other string
+ * set_string - set the value of string to an other string
  * @s : string to set
  * @to : string to set from
  */
