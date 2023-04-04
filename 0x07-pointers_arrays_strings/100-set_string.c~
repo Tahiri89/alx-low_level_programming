@@ -1,0 +1,19 @@
+#include "main.h"
+/**
+ * setstring - set the value of string to an other string
+ * @s : string to set
+ * @to : string to set from
+ */
+void set_string(char **s, char *to)
+{
+	int i;
+	int j;
+
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		for (j = 0; to[j] != '\0'; j++)
+		{
+			to[j] == s[i];
+		}
+	}
+}
