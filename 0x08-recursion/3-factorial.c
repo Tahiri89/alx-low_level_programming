@@ -3,8 +3,8 @@
 /**
  * factorial - the factorial of integer
  * @n : the integer to calculate the factorial
- * Return :int value
- */ 
+ * Return:int value
+ */
 int factorial(int n)
 {
 	if (n < 0)
