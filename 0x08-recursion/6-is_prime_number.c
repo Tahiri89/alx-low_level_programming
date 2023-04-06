@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * helper - does it for me
+ * help_f - does it for me
  * @i: helper int
  * @n: integer I'm testing
  * Return: value
