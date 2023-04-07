@@ -4,7 +4,12 @@
 #include <ctype.h>
 #include <string.h>
 
+/**
+ * _putchar - print char
+ * @c : char to print
+ * Return:inct value
+ */
 int _putchar(char c)
 {
-    return putchar(c);
+	return (_putchar(c));
 }

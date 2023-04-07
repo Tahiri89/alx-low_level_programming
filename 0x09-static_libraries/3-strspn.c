@@ -4,7 +4,13 @@
 #include <ctype.h>
 #include <string.h>
 
+/**
+ * _strspn - function...
+ * @s : string
+ * @accept: char to accept
+ * Return:int vale
+ */
 unsigned int _strspn(char *s, char *accept)
 {
-    return strspn(s, accept);
+	return (_strspn(s, accept));
 }

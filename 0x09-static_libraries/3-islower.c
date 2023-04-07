@@ -4,7 +4,12 @@
 #include <ctype.h>
 #include <string.h>
 
+/**
+ * _islower - check for lower char
+ * @c : int to check
+ * Return:int value
+ */
 int _islower(int c)
 {
-    return (c >= 'a' && c <= 'z');
+	return (c >= 'a' && c <= 'z');
 }

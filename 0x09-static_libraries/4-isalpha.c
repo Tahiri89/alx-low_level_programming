@@ -4,7 +4,12 @@
 #include <ctype.h>
 #include <string.h>
 
+/**
+ * _isalpha - check is alpha
+ * @c: int to check
+ * Return:int value
+ */
 int _isalpha(int c)
 {
-    return isalpha(c);
+	return (_isalpha(c));
 }

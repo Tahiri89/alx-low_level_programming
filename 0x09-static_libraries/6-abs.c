@@ -4,7 +4,12 @@
 #include <ctype.h>
 #include <string.h>
 
+/**
+ * _abs - function...
+ *@n : int ..
+ * Return:int value
+ */
 int _abs(int n)
 {
-    return abs(n);
+	return (_abs(n));
 }

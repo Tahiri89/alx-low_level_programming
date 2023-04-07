@@ -4,7 +4,13 @@
 #include <ctype.h>
 #include <string.h>
 
+/**
+ * _strstr - function ...
+ * @haystack: char...
+ * @needle: second char...
+ * Return:char value
+ */
 char *_strstr(char *haystack, char *needle)
 {
-    return strstr(haystack, needle);
+	return (_strstr(haystack, needle));
 }

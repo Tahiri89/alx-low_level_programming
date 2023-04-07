@@ -3,8 +3,14 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
+
+/**
+ * _atoi - atoi function
+ * @s: char
+ * Return:int value
+ */
 int _atoi(char *s)
 
 {
-    return atoi(s);
+	return (_atoi(s));
 }

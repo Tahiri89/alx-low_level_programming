@@ -4,7 +4,12 @@
 #include <ctype.h>
 #include <string.h>
 
+/**
+ * _strlen - lenght of string
+ * @s : string to check lenght
+ * Return:lenght value
+ */
 int _strlen(char *s)
 {
-    return strlen(s);
+	return (_strlen(s));
 }
