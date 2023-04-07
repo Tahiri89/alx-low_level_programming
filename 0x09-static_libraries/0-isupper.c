@@ -3,8 +3,12 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-
+/**
+ * _isupper - is upper
+ * @c : integer to check
+ * Return:int value
+ */
 int _isupper(int c)
 {
-    return (c >= 'A' && c <= 'Z');
+	return (c >= 'A' && c <= 'Z');
 }
