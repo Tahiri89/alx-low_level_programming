@@ -1,1 +1,1 @@
- Statics libraries 
+script creating static librarie from .c file 
