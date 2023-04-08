@@ -12,5 +12,5 @@
  */
 char *_strchr(char *s, char c)
 {
-	return (_strchr(s, c)x);
+	return (_strchr(s, c));
 }
