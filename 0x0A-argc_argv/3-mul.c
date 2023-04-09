@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#define UNUSED(x) (void)(x)
+
 /**
  * main - main function
  * @argc: argument counter
@@ -19,5 +19,5 @@ int main(int argc, char *argv[])
 		res = atoi(argv[1]) * atoi(argv[2]);
 		printf("%d\n", res);
 	}
-	return (0);
+	return (1);
 }
