@@ -1,0 +1,10 @@
+#include "main.h"
+#include <liball.a>
+
+int main (int argc, char argv[])
+{
+	char mayname_is;
+
+	myname_is = argv[0];
+	_putchar(myname_is);
+}
