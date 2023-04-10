@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include <ctype.h>
 #define UNUSED(x) (void)(x)
-
 /**
  * StringCheck - checks string
  * @s: string to check
@@ -24,11 +23,11 @@ int StringCheck(char *s)
 }
 /**
  * main - main function
- * @argc: argument counter
+ * @argc: argumentc
  * @argv: vector of arguments
  *Return: always 0
-*/
-int main(int argc, char *argv[])
+ */
+int main(int argc, char  *argv[])
 {
 	int i;
 	int result = 0;
