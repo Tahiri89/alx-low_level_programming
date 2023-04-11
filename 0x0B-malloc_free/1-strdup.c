@@ -5,7 +5,7 @@
 /**
  * _strdup - function that duplicates strings
  * @str : string to copy (duplicates)
- * Return:char to new duplicate strong
+ * Return:char to new duplicate string
  */
 char *_strdup(char *str)
 {
@@ -15,10 +15,11 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 	s = malloc(sizeof(str) + 1);
+
 	if (s == NULL)
 		return (NULL);
 
-	for (i = 0; i < sizeof(str); i++)
+	for (i = 0; i < sizeof(str) + 1; i++)
 	{
 		s[i] = str[i];
 	}
