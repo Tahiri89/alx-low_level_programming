@@ -3,24 +3,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 #define UNUSED(x) (void)(x)
-/**
- * StringCheck - checks string
- * @s: string to check
- * Return:boolean
- */
-int StringCheck(char *s)
-{
-	int i = 0;
 
-	for (; s[i] != '\0'; i++)
-	{
-		if (!isdigit(s[i]))
-		{
-			return (0);
-		}
-	}
-	return (1);
-}
 /**
  * main - main function
  * @argc: argumentc
@@ -29,30 +12,29 @@ int StringCheck(char *s)
  */
 int main(int argc, char  *argv[])
 {
-	int i;
-	int result = 0;
+	int i, j;
+	int sum = 0;
 
-		if (argc > 1)
+	if (argc < 2)
 	{
-		for (i = 1; i < argc; i++)
-		{
-			if (StringCheck(argv[i]))
-			{
-				result += atoi(argv[i]);
-			}
-			else
-			{
-				printf("Error\n");
-				return (1);
-			}
-		}
-		printf("%d\n", result);
+		printf("0\n");
 		return (0);
 	}
 	else
 	{
-		printf("%d\n", 0);
-		return (1);
+		for (i = 1; i < argc; i++)
+		{
+			for (j = 0; argv[i][j] != '\0'; j++)
+			{
+				if (!isdigit(argv[i][j]))
+				{
+					printf("Error\n");
+					return (1);
+				}
+			}
+			sum += atoi(argv[i]);
+		}
+		printf("%d\n", sum);
 	}
-
+	return (0);
 }
