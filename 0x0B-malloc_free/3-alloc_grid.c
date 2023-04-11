@@ -6,7 +6,7 @@
  * alloc_grid -  create 2d array of integers
  * @width: width of array
  * @height: height of array
- * Return:pointer of new grid 
+ * Return:pointer of new grid
  */
 int **alloc_grid(int width, int height)
 {
