@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * int_index - function returns index of element checked by an other function called back
+ * int_index - returns index of element checked by other function called back
  * @array: array to go through
  * @size: size of array
  * @cmp: function to do something with size
