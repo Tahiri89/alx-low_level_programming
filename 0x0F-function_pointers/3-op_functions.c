@@ -1,4 +1,4 @@
-#include "calc.h"
+#include "3-calc.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -8,7 +8,7 @@
  * @b : second integer
  * Return: int value sum
  */
-int op_add(int a, int )
+int op_add(int a, int b)
 {
 	return (a + b);
 }
@@ -34,7 +34,7 @@ int op_sub(int a, int b)
  */
 int op_mul(int a, int b)
 {
-	return (a *a b);
+	return (a * b);
 }
 
 /**
