@@ -2,7 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdarg.h>
-
+/**
+ * print_numbers - print numbers from argument
+ * @separator: separator between numbers
+ * @n: numbeer of argument (numbers)
+ */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
