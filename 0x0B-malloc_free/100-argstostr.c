@@ -1,0 +1,32 @@
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * argstostr - gives array of args
+ * @ac: argument count
+ * @av: array of arguments
+ * Return: char value
+ */
+char *argstostr(int ac, char **av)
+{
+	int i;
+	char *ns;
+
+	if (ac == 0 || av == NULL)
+		return (NULL);
+	ns = malloc(sizeof(char) * (ac + 1));
+
+	if (ns == NULL)
+		return (NULL);
+	for (i = 0; i < ac; i++)
+	{
+		if (*av[i] == '\0')
+		{
+			ns[i] = *av['\n'];
+		}
+		else
+			ns[i] = *av[i];
+	}
+	return (ns);
+}
