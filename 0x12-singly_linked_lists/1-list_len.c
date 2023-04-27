@@ -3,6 +3,11 @@
 #include <stdio.h>
 #include "lists.h"
 
+/**
+ * list_len - list liegnt
+ * @h : head node
+ * Return:int value lenght
+ */
 
 size_t list_len(const list_t *h)
 {
