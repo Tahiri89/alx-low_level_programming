@@ -1,18 +1,17 @@
 #include "lists.h"
-
 /**
- * free_listint - free list
- * @head: the head of the list
+ * free_listint - frees the list
+ * @head: head of struct
+ *
  */
 void free_listint(listint_t *head)
 {
-	listint_t *t_head;
-
+	listint_t *tmp;
 
 	while (head != NULL)
 	{
-		t_head = head;
+		tmp = head;
 		free(head);
-		head = t_head->next;
+		head = tmp->next;
 	}
 }
