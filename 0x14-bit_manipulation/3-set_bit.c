@@ -4,7 +4,8 @@
 /**
  * set_bit - sets a bit at given index
  * @n: integer to go in it s bibanry form and set at the given index
- *
+ *@index: the index in what to set the value
+ * Return:success 1 ,faillure -1
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
