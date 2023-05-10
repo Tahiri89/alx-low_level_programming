@@ -7,7 +7,7 @@
  */
 int main(int argc, char **argv)
 {
-	int file_from, file_to, writed, readed;
+	int file_from, file_to, to_write, readed;
 	char buff[1024];
 
 	if (argc != 3)
@@ -29,7 +29,7 @@ int main(int argc, char **argv)
 	}
 	while ((readed = read(file_from, buff, 1024)) > 0)
 	{
-		to_write = write(fdToo, buff, readed);
+		to_write = write(file_to, buff, readed);
 		if (to_write == -1)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
